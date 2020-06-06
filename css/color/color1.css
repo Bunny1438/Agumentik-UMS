@@ -1,0 +1,24 @@
+.demo-section .demo-content h2,.features .feature-content i,.app-features .feature-content .single-list i,.contact-us .contact-info .single-info i,.color-plate .icon i{
+	background:linear-gradient(-45deg,#2e0ea0,#8f0fa0);
+	background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.pricing__values,.blog .single-news .news-body h2:hover a,.blog .single-news .news-body .date,.blog .only-body .news-body h2:hover a,.blog .only-body .news-body .date,.blog-single .single-comment .content a,.blog-sidebar .categor-list li a:hover,.blog-sidebar .categor-list li a i,.blog-sidebar .single-post .content h5 a:hover{
+	color:#8e42f7;
+}
+.contact-us .checkbox label::before{
+	border-color:#8e42f7;
+}
+.contact-us .checkbox label::after,.section-title .lines,.section-title .lines:before,.section-title .lines:after{
+	background:#8e42f7;
+}
+.watch-video .video-image .waves-block .waves{
+	background: #8e42f794;
+}
+.breadcrumbs.overlay:before,#scrollUp i,.spinner > div,.site-header.sticky .header-bottom,.hero-area.overlay:before,.hero-area2.overlay:before,.watch-video .video-image .video-play a,.c-butions .single-butions:hover,.c-butions .single-butions.active,.switcher__border,.pricing__plan.active,.team .single-team.overlay:before,.faq-area .faq-title a::before,.faq-area .faq-title a.collapsed:before,.work .single-work .serial span,.newsletter.overlay:before,.blog-sidebar .side-tags .tag a:hover,.pagination .pagination-list li.active a,.pagination .pagination-list li:hover a,.mail-success .mail-inner i,.get-app.overlay:before,.error .error-inner i{
+	background:linear-gradient(-45deg,#2e0ea0,#8f0fa0);
+}
+.button {text-transform:capitalize; color: #fff; padding: 12px 35px;font-size:14px; font-weight: 500; border: none; position: relative; display: inline-block; -webkit-border-radius: 90px; -moz-border-radius: 90px; border-radius: 90px; background-image: linear-gradient(to right, #2e0ea0 0%, #8f0fa0 51%, #2e0ea0 100%); background-size: 200% auto; }
+.button:hover, .button:focus { text-decoration: none; color: #ffffff; background-position: right center; }
