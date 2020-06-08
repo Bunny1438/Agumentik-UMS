@@ -303,6 +303,12 @@
 	margin-top:10px;
 	font-weight: 500;
 }
+.hero-area .welcome-text .lp {
+	color: #fff;
+	font-size: 16px;
+	margin-top:5px;
+	font-weight: 500;
+}
 .hero-area .welcome-text .button {
 	margin-top: 30px;
 	color: #fff;
@@ -318,7 +324,7 @@
 }
 .hero-area .hero-image{
 	position: relative;
-	margin-top: -350px;
+	margin-top: -435px;
 	margin-left: 57%;
 	width: 600px !important;
     z-index: 100;
@@ -332,37 +338,7 @@
 .hero-area .hero-image img {
 	border-radius: 20px;
 }
-/* Hero Style 2 */
-.hero-area2{
-	background:#333;
-	position: relative;
-}
-.hero-area2 .hero-main #particles-js{
-	position:absolute;
-	left:0;
-	top:0;
-	width:100%;
-	height:100%;
-}
-.hero-area2.overlay:before{
-	background:linear-gradient(-45deg,#2e0ea0,#8f0fa0);
-	opacity:1;
-}
-/* Hero Style 3 */
-.hero-area.style3{
-	position:relative;
-	background:transparent;
-}
-.hero-area.style3 .hero-inner {
-	text-align: center;
-	margin: 232px 0 -59px 0;
-}
-.hero-area.style3 .hero-main{
-	position:relative;
-}
-.hero-area.style3 .hero-main.overlay:before{
-	opacity:0.7;
-}
+
 /*======================================
    End Hero Area CSS
 ========================================*/ 
@@ -1007,14 +983,15 @@
    07. Start App Features CSS
 ===================================*/
 .app-features{
-	background:#f9f9f9;
+	background: #ffffff;;
 }
 .app-features .single-feature.content-left .feature-content{
 	padding:0;
-	padding-right:35px;
+	padding-top: 33px;
+	padding-right:65px;
 }
 .app-features .single-feature{
-	margin-bottom:150px;
+	margin-bottom:80px;
 }
 .app-features .single-feature:last-child{
 	margin-bottom:0px;
@@ -1024,7 +1001,7 @@
 	border-radius: 10px;
 }
 .app-features .feature-content {
-	padding: 0px 0px 0px 35px;
+	padding: 33px 0px 0px 35px;
 }
 .app-features .feature-content .title {
 	font-size: 28px;
@@ -1040,39 +1017,7 @@
 .app-features .feature-content .title-p{
 	margin-bottom:15px;
 }
-.app-features .feature-content .single-list {
-	position: relative;
-	padding-left: 60px;
-	margin-bottom:20px;
-}
-.app-features .feature-content .single-list:last-child{
-	margin-bottom:0px;
-}
-.app-features .feature-content .single-list i{
-	background: linear-gradient(-45deg,#2e0ea0,#8f0fa0);
-	background-clip: border-box;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
-	font-size:40px;
-	position:absolute;
-	left:0;
-}
-.app-features .feature-content .single-list i {
-	font-size:35px;
-	position:absolute;
-	left:0;
-	background: linear-gradient(-45deg,#2e0ea0,#8f0fa0);
-	background-clip: border-box;
-	background-clip: border-box;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-.app-features .feature-content .single-list h5 {
-	font-size: 20px;
-	font-weight: 500;
-	margin-bottom: 12px;
-}
+
 .app-features .button{
 	color:#fff;
 	margin-top:20px;
@@ -1360,7 +1305,7 @@
    16. Start Blog CSS
 ========================================*/
 .blog{
-	background:#f5f5f5;
+	background: #ffffff;;
 }
 .blog .single-news {
 	background: #fff;
@@ -1448,524 +1393,7 @@
 	font-weight: 400;
 	color:#fff;
 }
-/* Only Body */
-.blog .only-body{
-	background:transparent;
-	border:none;
-	box-shadow:none;
-	margin-top: 32px;
-}
-.blog .only-body .news-body {
-	margin-bottom: 26px;
-	background: #fff;
-	padding: 0;
-	padding: 20px 30px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	border: 1px solid #eeeeee;
-}
-.blog .only-body .news-body:hover{
-	box-shadow: 0px 0px 15px #0000001a;
-}
-.blog .only-body .news-body:last-child{
-	margin-bottom:0px;
-}
-.blog .only-body .news-content .by {
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	margin-bottom: 8px;
-}
-.blog .only-body .news-content .by span{
-	margin-right:15px;
-	color:#6f6f6f;
-}
-.blog .only-body .news-content .by span:last-child{
-	margin-right:0px;
-	
-}
-.blog .only-body .news-content .by span i{
-	margin-right:5px;
-	color:#6f6f6f;
-}
-.blog .only-body .news-body h2 {
-	font-size: 18px;
-	font-weight: 600;
-	color: #333;
-	margin-bottom: 10px;
-	display:block;
-}
-.blog .only-body .news-body h2 a{
-	text-decoration:none;
-	
-}
-.blog .only-body .news-body h2:hover a{
-	color:#8e42f7;
-}
-.blog .only-body .news-body .date{
-	display:block;
-	color:#8e42f7;
-	margin:10px 0;
-	position:relative;
-	font-weight:500;
-	text-transform:capitalize;
-}
-.blog .only-body .news-body .text{
-	color:#A1A1A1;
-	margin-bottom:25px;
-	line-height: 22px;
-}
-.blog .only-body .news-body .button {
-	padding: 8px 25px;
-	font-weight: 400;
-	color:#fff;
-}
-/* Blog Single CSS */
-.blog-single {
-	background: #f9f9f9;
-	padding: 70px 0 100px;
-}
-.blog-single .blog-single-main{
-	margin-top:30px;
-	box-shadow: 0px 0px 20px #00000021;
-	border-radius:10px;
-}
-.blog-single  .blog-detail {
-	background: #fff;
-	padding: 40px;
-	border-radius:0 0 10px 10px;
-}
-.blog-single .blog-detail {
-	background: #fff;
-}
-.blog-single .image{
-	position:relative;
-	border-radius:10px;
-	overflow:hidden;
-}
-.blog-single .image img{
-	width:100%;
-	height:100%;
-}
-.blog-single .blog-meta {
-	margin-bottom: 0;
-	overflow: hidden;
-	margin-top: 40px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	padding: 25px 30px;
-	background: #3333337a;
-}
-.blog-single .blog-meta .author i {
-	color:#fff;
-	margin-right: 10px;
-	font-size: 13px;
-}
-.blog-single .blog-meta .author  a{
-	margin-right:20px;
-	display:inline-block;
-	font-weight:400;
-}
-.blog-single .blog-meta .author  a:last-child{
-	margin:0;
-}
-.blog-single .blog-meta span {
-	display: inline-block;
-	font-size: 14px;
-	color: #fff;
-}
-.blog-single .blog-meta span a i {
-	margin-right: 10px;
-	color: #fff;
-}
-.blog-single .blog-meta span a:hover{
-	
-}
-.blog-single .blog-title {
-	font-size: 25px;
-	font-weight: 500;
-	text-transform: capitalize;
-	margin: 0 0 25px 0;
-}
-.blog-single .content p {
-	margin-bottom: 25px;
-	line-height: 26px;
-}
-.blog-single .content p:last-child{
-	margin:0;
-}
-.blog-single blockquote {
-	font-size: 14px;
-	font-weight: 500;
-	padding: 50px 40px;
-	background:#f7fbfe;
-	color: #333;
-	border: none;
-	margin-bottom: 25px;
-}
-/* Comments */
-.blog-single .comments {
-	background: #fff;
-	padding: 40px;
-	border-top:1px solid #dddddd80;
-}
-.blog-single .comments .comment-title {
-	position: relative;
-	text-align: left;
-	font-size: 18px;
-	color: #2C2D3F;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	font-weight: 400;
-	font-weight: 600;
-}
-.blog-single .comments{
-	
-}
-.blog-single .comments .single-comment {
-	position: relative;
-	
-	padding: 35px 0px;
-}
-.blog-single .comments .single-comment.left{
-	margin-left:110px;
-}
-.blog-single .comments .single-comment img {
-	height: 80px;
-	width: 80px;
-	border-radius: 0;
-	position: absolute;
-	left: 0;
-}
-.blog-single .single-comment .content {
-	padding-left: 105px;
-}
-.blog-single .single-comment .content h4 {
-	color: #333;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 10px;
-	display:block;
-	margin-bottom: 12px;
-	text-transform:capitalize;
-}
-.blog-single .single-comment .content p {
-	color: #666;
-	font-weight: 400;
-	line-height: 22px;
-}
-.blog-single .single-comment .content a {
-	display: block;
-	font-weight: 600;
-	color:#8e42f7;
-	text-transform: capitalize;
-	font-size: 14px;
-	margin-top:20px;
-}
-.blog-single .single-comment .content a:hover{
-	color:#333;
-}
-/* Comment Form */
-.blog-single .reply{
-	background: #fff;
-	padding: 40px;
-	border-top:1px solid #dddddd80;
-}
-.blog-single .reply .reply-title {
-	position: relative;
-	text-align: left;
-	font-size: 20px;
-	color: #2C2D3F;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	font-weight: 400;
-	font-weight: 600;
-}
-.blog-single .reply .form-group{
-	margin-bottom:25px;
-}
-.blog-single .reply .form-group input {
-	box-shadow: none;
-	text-shadow: none;
-	width: 100%;
-	padding: 0 20px;
-	height: 50px;
-	background: transparent;
-	box-shadow: none;
-	border: none;
-	border-radius: 0px;
-	border: 1px solid #dbdee5;
-	border-radius: 5px;
-	font-weight: 400;
-	color: #333;
-	font-size: 14px;
-}
-.blog-single .reply .form-group textarea {
-	box-shadow: none;
-	text-shadow: none;
-	border: none;
-	padding-left: 16px;
-	padding-top: 18px;
-	height: 150px;
-	background: transparent;
-	width: 100%;
-	border-radius:0px;
-	border:1px solid #dbdee5;
-	border-radius:5px;
-	font-weight: 400;
-	color: #333;
-	font-size: 14px;
-}
-.blog-single .reply .button {
-	text-align: left;
-	margin-bottom:0px;
-	height:45px;
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	transition:all 0.4s ease;
-}
-/* Blog Sidebar */
-.blog-sidebar {
-	background: #fff;
-	margin-top: 30px;
-	padding: 30px 0px;
-	border-radius: 10px;
-	box-shadow: 0px 0px 20px #00000021;
-}
-.blog-sidebar .single-widget {
-	margin-bottom: 50px;
-	padding: 0 30px;
-}
-.blog-sidebar .single-widget .title {
-	position: relative;
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: capitalize;
-	margin-bottom: 30px;
-	display: block;
-	background: #fff;
-}
-.blog-sidebar .single-widget:last-child{
-	margin:0;
-}
-.blog-sidebar .search{
-	position:relative;
-}
-.blog-sidebar .search input {
-	width: 100%;
-	height: 50px;
-	display: block;
-	box-shadow: none;
-	text-shadow: none;
-	font-size: 13px;
-	border: none;
-	color: #222;
-	background: transparent;
-	padding: 0 70px 0 20px;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	border-radius: 30px;
-	border: 1px solid #eee;
-	color: #333;
-	padding-right: 125px;
-	font-weight:400;
-}
-.blog-sidebar .search .button {
-	position: absolute;
-	right: 37px;
-	top: 7px;
-	line-height: 36px;
-	box-shadow: none;
-	text-shadow: none;
-	text-align: center;
-	border: none;
-	font-size: 14px;
-	color: #fff;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	text-align: center;
-	padding: 0 20px;
-	height: 100%;
-	box-shadow: 0px 5px 15px #00000047;
-	height: 36px;
-}
-.blog-sidebar .search .button i {
-	display: inline-block;
-	margin-left: 5px;
-	font-size: 12px;
-}
-.blog-sidebar .search .button:hover {
-	box-shadow:none;
-}
-/* Category List */
-.blog-sidebar .categor-list {
-	margin-top: 15px;
-}
-.blog-sidebar .categor-list li{
-	
-}
-.blog-sidebar .categor-list li {
-	margin-bottom: 15px;
-}
-.blog-sidebar .categor-list li:last-child{
-	margin-bottom:0px;
-}
-.blog-sidebar .categor-list li a {
-	display: inline-block;
-	color: #333;
-	font-weight: 500;
-	font-size: 14px;
-}
-.blog-sidebar .categor-list li a:hover{
-	color:#8e42f7;
-}
-.blog-sidebar .categor-list li a i{
-	display:inline-block;
-	margin-right:10px;
-	color:#8e42f7;
-	font-size:12px;
-}
-/* Recent Post */
-.blog-sidebar .recent-post{}
-.blog-sidebar .single-post {
-	position: relative;
-	margin-bottom: 15px;
-}
-.blog-sidebar .single-post.first{
-	padding-top:0px;
-}
-.blog-sidebar .single-post:last-child{
-	padding-bottom:0px;
-	border:none;
-}
-.blog-sidebar .single-post .sidebar-image {
-	
-}
-.blog-sidebar .single-post .sidebar-image img{
-	height: 65px;
-	width: 65px;
-	position:absolute;
-	left:0;
-}
-.blog-sidebar .single-post .content{
-	padding-left:100px;
-}
-.blog-sidebar .single-post .content h5 {
-	font-size:14px;
-	margin-bottom:5px;
-}
-.blog-sidebar .single-post .content p{
-	display: block;
-	color: #7a7a7a;
-	font-weight: 500;
-	margin-bottom: 5px;
-	text-transform:lowercase;
-	font-size: 13px;
-}
-.blog-sidebar .single-post .content p span{
-	display:inline-block;
-	color:#333;
-	margin-left:10px;
-}
-.blog-sidebar .single-post .content h5 a {
-	color: #2C2D3F;
-	font-weight: 500;
-	font-size: 14px;
-	font-weight: 500;
-	display: block;
-}
-.blog-sidebar .single-post .content h5 a:hover{
-	color:#8e42f7;
-}
-/* Blog Tags */
-.blog-sidebar .side-tags{}
-.blog-sidebar .side-tags .tag{
-	margin-top:40px;
-}
-.blog-sidebar .side-tags .tag li {
-	display: inline-block;
-	margin-right: 7px;
-	margin-bottom: 18px;
-}
-.blog-sidebar .side-tags .tag li a {
-	background: #fff;
-	color: #666;
-	padding: 8px 15px;
-	border: 1px solid #eee;
-	text-transform: capitalize;
-	font-weight: 400;
-	font-size: 13px;
-	border-radius: 30px;
-}
-.blog-sidebar .side-tags .tag a:hover{
-	color:#fff;
-	background:linear-gradient(-45deg,#2e0ea0,#8f0fa0);
-	border-color:transparent;
-}
-/* Pagination CSS */
-.pagination {
-	text-align: left;
-	margin: 30px 0 0 0;
-	display: block;
-}
-.pagination.full-width {
-	text-align: center;
-}
-.pagination.full-width{
-	text-align: left;
-}
-.pagination .pagination-list li {
-	margin-right: 5px;
-	display: inline-block;
-}
-.pagination .pagination-list li:last-child{
-	margin-right:0px;
-}
-.pagination .pagination-list li a {
-	background: transparent;
-	color: #333;
-	height: 40px;
-	width: 40px;
-	line-height: 40px;
-	display: block;
-	font-weight: 400;
-	font-size: 16px;
-	text-align: center;
-	border-radius: 0;
-	border: 1px solid #3333333b;
-}
-.pagination .pagination-list li.active a,
-.pagination .pagination-list li:hover a{
-	background:linear-gradient(-45deg,#2e0ea0,#8f0fa0);
-	color: #fff;
-	border-color:transparent;
-}
-.pagination .pagination-list li a i{
-	font-size:13px;
-}
-.pagination .pagination-list li a i{}
-.blog-grids.pagination{
-	margin-top:50px;
-	text-align:center;
-}
 
-/* Blog Single Section */
-.blog-single-section{
-	margin-bottom:60px;
-	background:#f9f9f9;
-	box-shadow: 0px 0px 20px #00000021;
-}
-.blog-single-section:last-child{
-	margin-bottom:0px;
-}
-.blog-single-section .button{
-	color:#fff;
-}
 /*======================================
    End Blog CSS
 ========================================*/
@@ -1974,6 +1402,39 @@
 /*===================================
 	17. Start Contact Us CSS
 ====================================*/
+.hero-area-2 {
+	position: relative;
+	background-image: url(images/hero-bg1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	overflow:visible;
+}
+.hero-area-2.overlay:before{
+	background:linear-gradient(-45deg,#2e0ea0,#8f0fa0);
+	opacity:0.9;
+}
+.curv-img {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 0;
+}
+.curv-img svg {
+    display: block;
+}
+.hero-area-2 .hero-inner-2 {
+	
+	margin: 152px 0;
+}
+.hero-area-2 .welcome-text-2 h1 {
+	font-size: 40px;
+	color: #fff;
+	text-transform: capitalize;
+}
+
 .contact-us{
 	background:#fff;
 }
@@ -2201,6 +1662,7 @@
 }
 .get-app.section{
 	padding:90px 0 0 0;
+	padding-bottom: 80px;
 }
 .get-app.overlay:before{
 	background:linear-gradient(-45deg,#2e0ea0,#8f0fa0);
@@ -2211,15 +1673,12 @@
 	padding: 0px 265px;
 }
 .get-app .get-content h2{
-	font-size: 35px;
+	font-size: 28px;
 	text-transform: capitalize;
 	font-weight: 500;
 	color:#fff;
 }
-.get-app .get-content p{
-	color:#fff;
-	margin:30px 0px;
-}
+
 .get-app .get-content .get-button{}
 .get-app .get-content .button{
 	margin-right:10px;
@@ -2301,7 +1760,7 @@
 	20. Start Footer CSS
 ===============================*/
 .footer{
-	background:#fff;
+	background: #ffffff;
 }
 .footer .footer-top{
 	padding:70px 0 0 0;
