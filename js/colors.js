@@ -6,52 +6,6 @@ $(document).ready(function(){
 		return false;
 	});
 		
-	$(".color2" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color2.css" );
-		return false;
-	});
-		
-	$(".color3" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color3.css" );
-		return false;
-	});
-		
-	$(".color4" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color4.css" );
-		return false;
-	});	
-	$(".color5" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color5.html" );
-		return false;
-	});	
-	$(".color6" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color6.html" );
-		return false;
-	});	
-	$(".color7" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color7.html" );
-		return false;
-	});	
-	$(".color8" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color8.html" );
-		return false;
-	});
-	$(".color9" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color9.html" );
-		return false;
-	});
-	$(".color10" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color10.html" );
-		return false;
-	});
-	$(".color11" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color11.html" );
-		return false;
-	});
-	$(".color12" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color12.html" );
-		return false;
-	});
 	
 		
 	

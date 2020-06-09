@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title Tag  -->
-    <title>Agumentik | Contact</title>
+    <title>Agumentik | Sign in</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <!-- Web Font -->
@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/loginstyle.css">
 
     <!-- Color CSS -->
     <link rel="stylesheet" href="css/color/color1.css">
@@ -87,7 +88,7 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="features.html">Features</a></li>
                                     <li><a href="modules.html">Modules</a></li>
-                                    <li class="active"><a href="contact.html">Contact</a></li>
+                                    <li ><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                             <a href="login.html" class="button">Sign in</a>
@@ -110,11 +111,11 @@
                         <div class="hero-inner-2">
                             <!-- Welcome Text -->
                             <div class="welcome-text-2">
-                                <h1>Contact Us</h1>
-                               
+                                <h1>Sign in</h1>
+
                             </div>
                             <!--/ End Welcome Text -->
-                          
+
                         </div>
                     </div>
                 </div>
@@ -145,89 +146,136 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-12 padding-right">
-                    <!-- Map Section -->
-                    <div class="map-section">
-                        <div id="myMap"></div>
-                    </div>
-                    <!--/ End Map Section -->
-                </div>
-                <div class="col-lg-6 col-12 padding-left">
-                    <form action="http://wpthemesgrid.com/themes/apptrend/mail/mail.php" method="post"
-                        class="contact-us-form" novalidate="novalidate">
-                        <div class="row">
-                            <div class="col-12">
-                                <h3 class="heading-title">Contact With Us</h3>
+                <div class="flat-form" style="border:0.5px solid black ;">
+                    <ul class="tabs">
+                        <li>
+                            <a href="#login" class="active">Login</a>
+                        </li>
+                        <li>
+                            <a href="#register">Register</a>
+                        </li>
+                        <li>
+                            <a href="#reset">Reset Password</a>
+                        </li>
+                    </ul>
+                    <div id="login" class="form-action show" style="">
+                        <h1>Login</h1>
+                        <form>
+                            <ul>
+                                <li>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Enter name"
-                                        required="required">
+                                    <input type="text" class="form-control" id="name" placeholder="User Name" required="required">
                                 </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Enter email"
-                                        required="required">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="company" value="" size="40" class="form-control"
-                                        id="company" placeholder="Your Company">
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control text-area" rows="7"
-                                        cols="25" placeholder="Message"></textarea>
-                                </div>
-                                <div class="contact-newsletter">
-                                    <h5 class="subs-title">Would you like subscribe our Newslatter </h5>
-                                    <div class="checkbox">
-                                        <label class="checkbox-inline" for="updates"><input name="updates" id="updates"
-                                                type="checkbox"> Yes</label>
-                                        <label class="checkbox-inline" for="news"><input name="news" id="news"
-                                                type="checkbox"> No</label>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="password" placeholder="Password" required="required">
                                     </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="form-group " style="padding-top: 20px;" >
+                                        <button type="submit" class="button ">Log in</button>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                            
+                        </form>
+                    </div>
+                    <!--/#login.form-action-->
+                    <div id="register" class="form-action hide">
+                        <h1>Register</h1>
+                        <form>
+                            <ul>
+                                <li>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="First Name" required="required">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Last Name" required="required">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="User Name" required="required">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="password" placeholder="Password" required="required">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <!-- <input type="email" class="form-control" id="mail" placeholder="E-mail" required="required"> -->
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="phone" placeholder="Phone No." required="required">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group " style="padding-top: 20px;">
+                                        <button type="submit" class="button ">Sign up</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                    <!--/#register.form-action-->
+                    <div id="reset" class="form-action hide">
+                        <h1>Reset Password</h1>
+                      
+                        <form>
+                            <ul>
+                                <li>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="User Name" required="required">
                                 </div>
-                                <div class="form-group ">
-                                    <button type="submit" class="button ">Send Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="number" placeholder="Phone no." required="required">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group " style="padding-top: 20px;">
+                                        <button type="submit" class="button ">Send</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                    <!--/#register.form-action-->
                 </div>
             </div>
-            <!-- Contact Info -->
-            <div class="contact-info">
-                <div class="row">
-                    <!-- Single Info -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="single-info">
-                            <i class="fa fa-thumb-tack" aria-hidden="true"></i>
-                            <h5>Our office location</h5>
-                            <p>97551 Gene Rest, North <br>Audreannerville, CO 0049-24565</p>
-                        </div>
-                    </div>
-                    <!-- End Single Info -->
-                    <!-- Single Info -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="single-info">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <h5>Email Address</h5>
-                            <p>info@yourmail.com <br> contact@yourname.com</p>
-                        </div>
-                    </div>
-                    <!-- End Single Info -->
-                    <!-- Single Info -->
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="single-info">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <h5>Phone Number</h5>
-                            <p>(354) 106-7525, <br> (131) 258-6986, (254) 325-8412</p>
-                        </div>
-                    </div>
-                    <!-- End Single Info -->
-                </div>
-            </div>
-            <!-- End Contact Info -->
+            
         </div>
     </section>
     <!-- /End Contact Area -->
+<!-- Start Get App Area -->
+<section class="get-app section overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="get-content">
+                    <h2>For further query or For detailed information about software</h2>
+                    <br><br>
+                    <div class="get-button">
+                        <a href="contact.html" class="button ">Contact Us</a>
+                        <a href="#" class="button primary">Brochure</a>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /End Get App area -->
     <!-- Start Footer Area -->
     <footer class="footer">
         <!-- Footer Top -->
@@ -240,7 +288,8 @@
                             <div class="logo">
                                 <a href="index.html"><img src="images/logo2.png" width="190" alt="#"></a>
                             </div>
-                            <p class="text">Excellence decisively nay man yet impression for contrasted remarkably. There spoke happy for
+                            <p class="text">Excellence decisively nay man yet impression for contrasted remarkably.
+                                There spoke happy for
                                 you are out. Fertile how old address.</p>
                             <!-- Social -->
                             <ul class="social">
@@ -253,7 +302,7 @@
                         </div>
                         <!-- End Single Widget -->
                     </div>
-                    
+
                     <div class="col-lg-3 col-md-2 col-6">
                         <!-- Single Widget -->
                         <div class="single-footer f-link">
@@ -280,27 +329,27 @@
                         </div>
                         <!-- End Single Widget -->
                     </div>
-                    
-                    </div>
-                    <!-- Copyright -->
-                    <div class="copyright">
-                        <div class="copyright-inner">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="copyright-content">
-                                        <p>© Copyright 2019. All Rights Reserved by <a href="">Agumentik</a></p>
-                                    </div>
+
+                </div>
+                <!-- Copyright -->
+                <div class="copyright">
+                    <div class="copyright-inner">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="copyright-content">
+                                    <p>© Copyright 2019. All Rights Reserved by <a href="">Agumentik</a></p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
                 <!-- End Copyright -->
             </div>
         </div>
         <!-- End Footer Top -->
     </footer>
     <!-- /End Footer Area -->
-
+    
     <!-- Jquery -->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.js"></script>
@@ -338,6 +387,7 @@
     <script src="js/map-script.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
+    <script src="js/loginsc.js"></script>
 </body>
 
 </html>
