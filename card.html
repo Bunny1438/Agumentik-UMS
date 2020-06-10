@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='copyright' content=''>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title Tag  -->
+    <title>Agumentik | Checkout</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+    <!-- StyleSheet -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.payment/3.0.0/jquery.payment.min.js"></script>
+    <style>
+        .padding {
+            padding: 5rem !important
+        }
+
+        .form-control:focus {
+            box-shadow: 10px 0px 0px 0px #ffffff !important;
+            border-color: #4ca746
+        }
+    </style>
+    
+
+</head>
+
+<body >
+    
+    <div class="padding">
+        <div class="row">
+            <div class="container-fluid d-flex justify-content-center">
+                <div class="col-sm-8 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-md-6"> <span>CREDIT/DEBIT CARD PAYMENT</span> </div>
+                                <div class="col-md-6 text-right" style="margin-top: -5px;"> <img
+                                        src="https://img.icons8.com/color/36/000000/visa.png"> <img
+                                        src="https://img.icons8.com/color/36/000000/mastercard.png"> <img
+                                        src="https://img.icons8.com/color/36/000000/amex.png"> </div>
+                            </div>
+                        </div>
+                        <div class="card-body" style="height: 350px">
+                            <div class="form-group"> <label for="cc-number" class="control-label">CARD NUMBER</label> <input
+                                    id="cc-number" type="tel" class="input-lg form-control cc-number"
+                                    autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required> </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group"> <label for="cc-exp" class="control-label">CARD EXPIRY</label>
+                                        <input id="cc-exp" type="tel" class="input-lg form-control cc-exp"
+                                            autocomplete="cc-exp" placeholder="•• / ••" required> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group"> <label for="cc-cvc" class="control-label">CARD CVC</label>
+                                        <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc"
+                                            autocomplete="off" placeholder="••••" required> </div>
+                                </div>
+                            </div>
+                            <div class="form-group"> <label for="numeric" class="control-label">CARD HOLDER NAME</label>
+                                <input type="text" class="input-lg form-control"> </div>
+                            <div class="form-group"> <input value="MAKE PAYMENT" type="button"
+                                    class="btn btn-success btn-lg form-control" style="font-size: .8rem;"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/cardpay.js"></script>
+</body>
+
+</html>
