@@ -3,7 +3,7 @@
   background: #cccccc;
   color: #333333;
   margin: 25px auto;
-  width: 590px;
+  width: 690px;
   height: 520px;
   position: relative;
   font-family: 'Roboto';
@@ -33,7 +33,7 @@
   text-decoration: none;
   font-size: 16px;
   float: left;
-  padding: 12px 79.8px;
+  padding: 12px 104.85px;
 }
 .flat-form .tabs li a.active {
   background: #333;

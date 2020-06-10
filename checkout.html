@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title Tag  -->
-    <title>Agumentik | Sign in</title>
+    <title>Agumentik | Checkout</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <!-- Web Font -->
@@ -34,7 +34,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/loginstyle.css">
 
     <!-- Color CSS -->
     <link rel="stylesheet" href="css/color/color1.css">
@@ -88,7 +87,7 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="features.html">Features</a></li>
                                     <li><a href="modules.html">Modules</a></li>
-                                    <li ><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                             <a href="login.html" class="button">Sign in</a>
@@ -111,7 +110,7 @@
                         <div class="hero-inner-2">
                             <!-- Welcome Text -->
                             <div class="welcome-text-2">
-                                <h1>Sign in</h1>
+                                <h1>Checkout</h1>
 
                             </div>
                             <!--/ End Welcome Text -->
@@ -134,148 +133,127 @@
     <!-- Start Contact Area -->
     <section id="contact" class="contact-us section">
         <div class="container">
+            
             <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <span class="lines"></span>
-                        <h2>Connect with Us</h2>
-                        <p>Continually network virtual strategic theme areas vis-a-vis ubiquitous
-                            potentialities. Holisticly negotiate focused e-tailers without premium
-                            solutions. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="flat-form" style="border:0.5px solid black ;">
-                    <ul class="tabs">
-                        <li>
-                            <a href="#login" class="active">Login</a>
-                        </li>
-                        <li>
-                            <a href="#register">Register</a>
-                        </li>
-                        <li>
-                            <a href="#reset">Reset Password</a>
-                        </li>
-                    </ul>
-                    <div id="login" class="form-action show">
-                        <h1>Login</h1>
-                        <form>
-                            <ul>
-                                <li>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="User Name" required="required">
+                
+                <div class="col-lg-7 col-12 padding-right">
+                    <form action="" method="post"
+                        class="contact-us-form" novalidate="novalidate" style="padding-right: 45px !important;">
+                        <h3 class="heading-title" style="padding-left: 0;">Billing Details</h3>
+                        <div class="row">
+                            
+                                <div class="form-group col-xs-12 col-sm-6 col-md-6" style="padding-left: 0;">
+                                    <input type="text" class="form-control" maxlength="70" placeholder="First Name *" required="required" id="fname"
+                                        name="fname">
                                 </div>
-                                </li>
-                                <li>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" id="password" placeholder="Password" required="required">
-                                    </div>
-                                </li>
+                                <div class="form-group col-xs-12 col-sm-6 col-md-6" style="padding-left: 0;">
+                                    <input type="text" class="form-control" maxlength="70" placeholder="Last Name *" required="required" id="lname"
+                                        name="lname">
+                                </div>
+                                <div class="form-group col-md-12" style="padding-left: 0;">
+                                    <input type="text" name="company" value="" size="40" class="form-control"
+                                        id="company" placeholder="Your Company">
+                                </div>
+                                <div class="form-group col-md-12" style="padding-left: 0;">
+                                    <input type="text" class="form-control" maxlength="70" placeholder="Country Name *" required="required" id="country"
+                                        name="country">
+                                </div>
+                                <div class="form-group col-md-12" style="padding-left: 0;">
+                                    <input type="text" class="form-control" maxlength="70" placeholder="Street Address *" required="required" id="address"
+                                        name="address">
+                                </div>
+                                <div class="form-group col-xs-12 col-sm-6 col-md-6" style="padding-left: 0;">
+                                    <input type="text" class="form-control" maxlength="70" placeholder="Town / City *" required="required" id="city"
+                                        name="city">
+                                </div>
+                                <div class="form-group col-xs-12 col-sm-6 col-md-6" style="padding-left: 0;">
+                                    <input type="text" class="form-control" maxlength="70" placeholder="ZIP Code *" required="required" id="code"
+                                        name="code">
+                                </div>
+                                <div class="form-group col-md-12" style="padding-left: 0;">
+                                    <input type="text" class="form-control" maxlength="70" placeholder="State *" required="required"
+                                        id="state" name="state">
+                                </div>
+                                <div class="form-group col-md-12" style="padding-left: 0;">
+                                    <input type="text" class="form-control" maxlength="70" placeholder="Phone No. *" required="required" id="phone"
+                                        name="phone">
+                                </div>
+                                <div class="form-group col-md-12" style="padding-left: 0;">
+                                    <input type="email" class="form-control" maxlength="70" placeholder="E-mail *" required="required" id="email"
+                                        name="email">
+                                </div>
                                 
-                                <li>
-                                    <div class="form-group " style="padding-top: 20px;" >
-                                        <button type="submit" class="button ">Log in</button>
-                                    </div>
-                                </li>
-                            </ul>
-                            
-                            
-                        </form>
-                    </div>
-                    <!--/#login.form-action-->
-                    <div id="register" class="form-action hide">
-                        <h1>Register</h1>
-                        <form>
-                            <ul>
-                                <li>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="First Name" required="required">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Last Name" required="required">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="User Name" required="required">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" id="password" placeholder="Password" required="required">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="form-group">
-                                        <!-- <input type="email" class="form-control" id="mail" placeholder="E-mail" required="required"> -->
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="phone" placeholder="Phone No." required="required">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="form-group " style="padding-top: 20px;">
-                                        <button type="submit" class="button ">Sign up</button>
-                                    </div>
-                                </li>
-                            </ul>
-                        </form>
-                    </div>
-                    <!--/#register.form-action-->
-                    <div id="reset" class="form-action hide">
-                        <h1>Reset Password</h1>
-                      
-                        <form>
-                            <ul>
-                                <li>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="User Name" required="required">
+                                
+                                <div class="form-group col-md-12 " style="padding-left: 0;margin-top: 15px;">
+                                   <a href="#payment" class="button" style="color: #fff;">Save and Continue</a>
                                 </div>
-                                </li>
-                                <li>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="number" placeholder="Phone no." required="required">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="form-group " style="padding-top: 20px;">
-                                        <button type="submit" class="button ">Send</button>
-                                    </div>
-                                </li>
-                            </ul>
-                        </form>
+                            
+                            </div>
+                    </form>
+                </div>
+                <div class="col-lg-5 col-12 padding-left" id="payment">
+                    <div class="row"
+                        style="background-color: #eee;padding: 10%;border-radius: 6px;width: 92%;margin-left: 7.5%;padding-left: 10%;">
+                        <div class="section-heading col-md-12" style="padding-left: 0;">
+                            <h4 style="font-size: 25px;">Order Summary</h4>
+                        </div>
+                        
+                        <div style="width: 100%;">
+                            <p><br>
+                                <span><a href="#" style="color: black !important;">UMS -</a> </span>
+                                <span style="margin-left: 50%;">$199</span>
+                            </p>
+                            <p>
+                                <span>Handling Fee -</span>
+                                <span style="margin-left: 32.3%;">$9</span>
+                            </p>
+                            <hr style="color: black !important;border: 1px black !important;width: 82%;margin-left: -0.2%;">
+                            <span>Total -</span>
+                            <span style="margin-left: 50.3%;">$208</span>
+                        </div>
+                        
+                        <hr style="color: black !important;border: 1.5px solid black !important;width: 100%;margin-left: -0.2%;">
+                        <div class="section-heading col-md-12" style="padding-left: 0;margin-top: 5px;">
+                            <h4 style="font-size: 25px;">Payment Options</h4>
+                        </div>
+                        <div style="width: 100%;margin-top: 20px;">
+                            <a href="#">
+                                <img src="images/card.svg" width="100" height="30">
+                            </a>
+                            <a href="https://www.paypal.com/webscr?cmd=_express-checkout&amp;token=EC-8NW36365VH262033J&amp;useraction=commit"
+                                style="margin-left: 4%;">
+                                <img src="images/paypal.svg" width="100" height="30">
+                            </a>
+                            <a href="https://pay.skrill.com/app/?sid=33c0b2467c2de2c4ab074f7394338c36" style="margin-left: 5%;">
+                                <img src="images/skrill.svg" width="100" height="30">
+                            </a>
+                        </div>
                     </div>
-                    <!--/#register.form-action-->
                 </div>
             </div>
             
         </div>
     </section>
     <!-- /End Contact Area -->
-<!-- Start Get App Area -->
-<section class="get-app section overlay">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="get-content">
-                    <h2>For further query or For detailed information about software</h2>
-                    <br><br>
-                    <div class="get-button">
-                        <a href="contact.html" class="button ">Contact Us</a>
-                        <a href="#" class="button primary">Brochure</a>
+    <!-- Start Get App Area -->
+    <section class="get-app section overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="get-content">
+                        <h2>For further query or For detailed information about software</h2>
+                        <br><br>
+                        <div class="get-button">
+                            <a href="contact.html" class="button ">Contact Us</a>
+                            <a href="#" class="button primary">Brochure</a>
+                        </div>
+    
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- /End Get App area -->
+    </section>
+    <!-- /End Get App area -->
     <!-- Start Footer Area -->
     <footer class="footer">
         <!-- Footer Top -->
@@ -349,7 +327,7 @@
         <!-- End Footer Top -->
     </footer>
     <!-- /End Footer Area -->
-    
+
     <!-- Jquery -->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.js"></script>
@@ -387,7 +365,6 @@
     <script src="js/map-script.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
-    <script src="js/loginsc.js"></script>
 </body>
 
 </html>
