@@ -26,6 +26,13 @@
 .map-section iframe{
 	height: 574.2px !important;
 }
+.watch-video{
+	height: 780px;
+}
+
+.contact-us .contact-info .single-info p{
+	font-size:11px;
+}
 
 }
 /* Tablet Screen */
@@ -41,6 +48,9 @@
 .section-title h2 {
 	font-size: 30px;
 	margin-bottom: 20px;
+}
+.contact-us .contact-info .single-info p{
+	font-size:11px;
 }
 .section-title p {
 	font-size: 13px;
@@ -59,6 +69,9 @@
 }
 .app-features .single-feature.content-left .feature-content{
 	padding: 0;
+}
+.abt2{
+	display: none;
 }
 
 .hero-area .hero-image{
@@ -236,7 +249,7 @@
 .site-header.sticky{
 	
 }
-.hero-image,.hero-image-2,.lp,.color-plate{
+.hero-image,.hero-image-2,.lp,.color-plate,.abt2{
 	display: none;
 }
 
@@ -550,6 +563,10 @@
 	margin-left: 0.5%;
 }
 
+.pltn{
+	font-size: 23px !important;
+}
+
 
 
 
@@ -561,6 +578,9 @@
 }
 .hero-area .welcome-text .button{
 	margin-top: 0px;
+}
+.pltn{
+	font-size: 23px !important;
 }
 .section-title {
 	margin-bottom: 40px;

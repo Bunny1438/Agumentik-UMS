@@ -357,7 +357,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 120px 0;
-	height:700px;
+	height:750px;
 	margin-bottom:170px;
 }
 .watch-video .section-title{
@@ -661,8 +661,9 @@
 	color:#fff;
 }
 .pricing__value {
-	position: absolute;
+	/* position: absolute;
 	top: 4px;
+	right: 3px; */
 	font-size: 30px;
 	font-weight: 500;
 }
@@ -843,7 +844,7 @@
 	color:#333;
 	font-weight:600;
 	text-transform:capitalize;
-	font-size:18px;
+	font-size:16px;
 }
 .testimonials .single-testimonial .name span{
 	display:block;
@@ -1392,7 +1393,7 @@
 }
 .blog .single-news .news-body .text{
 	color:#A1A1A1;
-	margin-bottom:25px;
+	/* margin-bottom:25px; */
 	line-height: 22px;
 }
 .blog .single-news .news-body .button {
