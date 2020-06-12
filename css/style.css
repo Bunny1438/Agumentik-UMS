@@ -614,6 +614,23 @@
 	margin:0 auto;
 	text-align: center;
 }
+.hv:hover{
+	background:linear-gradient(-45deg,#2e0ea0,#8f0fa0);   
+	
+}
+.hv:hover .pricing__title,.hv:hover .pricing__values,.hv:hover .pricing__list li{
+	color: #fff;
+}
+.hv:hover .button{
+	background: #fff !important;
+}
+.hv:hover .button{
+	color: #333333;
+}
+.hv .button:hover{
+	background: #ffffff57 !important;
+	color: #fff;
+}
 
 .pricing__plan{       
 	background-color:#fff;
